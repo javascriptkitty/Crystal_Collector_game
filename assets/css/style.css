@@ -1,0 +1,85 @@
+body {
+  background: url(../images/back2.png) no-repeat center center fixed;
+  background-size: cover;
+
+  font-family: "Poiret One", cursive;
+  font-size: 30px;
+  line-height: 1.5;
+  padding: 20px;
+}
+h1 {
+  font-size: 52px;
+  font-weight: bolder;
+  text-align: center;
+}
+h2 {
+  font-size: 30px;
+  font-weight: bolder;
+  margin-bottom: 10px;
+}
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  margin: 20px 0;
+}
+.instruction,
+.wins,
+.losses,
+.match,
+.current {
+  background-color: rgba(256, 256, 256, 0.7);
+  border-radius: 5px;
+  margin: 15px 20px;
+  padding: 10px;
+}
+
+p {
+  font-family: "Nanum Gothic", sans-serif;
+  font-size: 17px;
+}
+.info,
+.score {
+  display: flex;
+  justify-content: center;
+}
+
+.current,
+.match {
+  display: flex;
+  width: 250px;
+  height: 80px;
+  flex-direction: column;
+  align-items: center;
+}
+img {
+  height: 150px;
+  width: 150px;
+}
+.crystals {
+  display: flex;
+  justify-content: center;
+}
+button {
+  margin: 15px;
+  padding: 10px;
+  border: 1px solid whitesmoke;
+  border-radius: 10px;
+  background-color: rgba(256, 256, 256, 0.7);
+}
+
+button:active {
+  background-color: rgba(256, 256, 256, 0);
+}
+img:active {
+  height: 130px;
+  width: 130px;
+}
+
+.wins,
+.losses {
+  width: 130px;
+  align-items: center;
+}
+span {
+  font-weight: bold;
+}

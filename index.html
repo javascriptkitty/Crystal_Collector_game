@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>DocumentCrystal Collector Game</title>
+    <link rel="stylesheet" href="assets/css/reset.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Nanum+Gothic|Poiret+One&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
+  </head>
+  <body>
+    <h1>Crystal Collector</h1>
+
+    <div class="wrapper">
+      <div class="instruction">
+        <h2>Instructions</h2>
+        <p>
+          You will be given a random number at the start of the game. values of
+          each crystal.
+        </p>
+        <p>
+          There are four crystals below. By clicking on a crystal you will add a
+          specific amount of points to your total score.
+        </p>
+
+        <p>
+          You win the game by matching your total score to the ramdom number,
+          you lose the game if your total score goes above the random number.
+        </p>
+        <p>
+          The value of each crystal is hidden from you until you click on it.
+          Each time when the game starts, the game will change the values of
+          each crystal.
+        </p>
+      </div>
+
+      <div class="info">
+        <div class="match">Number to match:<span id="match"></span></div>
+        <div class="current">Your number:<span id="current"></span></div>
+      </div>
+   
+
+    <div class="crystals">
+      <button class="crystal"><img src="assets/images/c1.png" /></button>
+      <button class="crystal"><img src="assets/images/c2.png" /></button>
+      <button class="crystal"><img src="assets/images/c3.png" /></button>
+      <button class="crystal"><img src="assets/images/c4.png" /></button>
+    </div>
+    <div class="score">
+      <div class="wins">Wins: <span id="wins">0</span></div>
+      <div class="losses">Losses: <span id="losses">0</span></div>
+    </div>
+  </body>
+</html>
