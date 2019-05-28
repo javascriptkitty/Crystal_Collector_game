@@ -65,14 +65,17 @@ button {
   border: 1px solid whitesmoke;
   border-radius: 10px;
   background-color: rgba(256, 256, 256, 0.7);
+  outline: 0;
 }
 
 button:active {
   background-color: rgba(256, 256, 256, 0);
+  outline: 0;
 }
 img:active {
   height: 130px;
   width: 130px;
+  padding: 10px;
 }
 
 .wins,
