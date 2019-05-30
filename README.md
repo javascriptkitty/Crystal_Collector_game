@@ -1,4 +1,4 @@
-# unit-4-game
+# Crystal_Collector_game
 
 ![Site screenshort](https://github.com/javascriptkitty/unit-4-game/blob/master/assets/images/ScreenShot.png)
 
